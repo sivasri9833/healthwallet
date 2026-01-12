@@ -1,0 +1,68 @@
+.vital-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  align-items: end;
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.charts-section {
+  margin-top: 30px;
+}
+
+.chart-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.chart-card h3 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.vitals-list-section {
+  margin-top: 30px;
+}
+
+.vitals-table {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+.vitals-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.vitals-table th,
+.vitals-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.vitals-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #333;
+}
+
+.vitals-table tr:hover {
+  background-color: #f8f9fa;
+}
+
+.vitals-table .btn {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+

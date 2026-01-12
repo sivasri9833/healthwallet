@@ -1,0 +1,6 @@
+node_modules/
+.env
+healthwallet.db
+uploads/
+*.log
+
